@@ -10,6 +10,11 @@ function clearDisplay() {
   document.getElementById('display').value = '';
 }
 
+function backspace() {
+  let display = document.getElementById('display');
+  display.value = display.value.slice(0, -1);
+}
+
 function calculate() {
   try {
     let result = eval(document.getElementById('display').value);
@@ -17,8 +22,4 @@ function calculate() {
   } catch {
     document.getElementById('display').value = 'Error';
   }
-}
-function backspace() {
-  let display = document.getElementById('display');
-  display.value = display.value.slice(0, -1);
 }

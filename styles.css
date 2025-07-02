@@ -60,7 +60,6 @@ body {
 .buttons .equal {
   background-color: #00bfff;
   color: white;
-  grid-column: span 2;
 }
 
 .buttons .equal:hover {
@@ -72,12 +71,12 @@ body {
   background-color: #f08080;
   color: white;
 }
+
 .buttons .backspace {
-  background-color: #ffa07a;   /* Light Salmon color */
+  background-color: #ffa07a;
   color: white;
-  grid-column: span 2;
 }
 
 .buttons .backspace:hover {
-  background-color: #ff7f50;   /* Coral on hover */
+  background-color: #ff7f50;
 }
