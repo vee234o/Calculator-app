@@ -57,19 +57,13 @@ body {
   background-color: #87ceeb;
 }
 
-.buttons .equal {
-  background-color: #00bfff;
-  color: white;
-}
-
-.buttons .equal:hover {
-  background-color: #1e90ff;
-}
-
 .buttons .clear {
-  grid-column: span 4;
   background-color: #f08080;
   color: white;
+}
+
+.buttons .clear:hover {
+  background-color: #e06666;
 }
 
 .buttons .backspace {
@@ -79,4 +73,13 @@ body {
 
 .buttons .backspace:hover {
   background-color: #ff7f50;
+}
+.buttons .equal {
+  background-color: #00bfff;
+  color: white;
+  grid-column: span 4; 
+}
+
+.buttons .equal:hover {
+  background-color: #1e90ff;
 }
